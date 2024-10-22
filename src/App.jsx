@@ -9,7 +9,7 @@ function App() {
         <h3>Tomás Castaño Chica</h3>
     </header>
     <main>
-        <section class="hobbies-section">
+        <section className="hobbies-section">
             <h3>Hobbies</h3>
             <ul>
                 <li><b>Fútbol: </b>Disfruto mantenerse activo y competitivo a través del fútbol, lo que también me enseña a trabajar en equipo y a perseverar.</li>
@@ -19,7 +19,7 @@ function App() {
                 <li><b>Equilibrio Vida-Trabajo: </b>Valoro profundamente el tiempo que paso con mi familia y mis amigos, lo que me ayuda a mantener un equilibrio entre el trabajo y la vida personal.</li>
             </ul>
         </section>
-        <section class="experience-section">
+        <section className="experience-section">
             <h3>Experiencia laboral</h3>
             <ol>
                 <li>
@@ -34,7 +34,7 @@ function App() {
                 </li>
             </ol>
         </section>
-        <section class="academic-section">
+        <section className="academic-section">
             <h3>Experiencia Academica</h3>
             <ul>
                 <li>
@@ -59,7 +59,7 @@ function App() {
                 </li>
             </ul>
         </section>
-        <section class="skills-section">
+        <section className="skills-section">
             <h3>Aptitudes</h3>
             <ul>
                 <li><b>Inglés Intermedio</b></li>
@@ -71,11 +71,11 @@ function App() {
             </ul>
         </section>
     </main>
-    <footer class="contact-section">
+    <footer className="contact-section">
         <h3>Contáctame</h3>
         <form>
             <fieldset>
-                <div class="sender-info">
+                <div className="sender-info">
                     <label for="name">Nombre:</label>
                     <input name="name" id="name" type="text" />
                     <label for="email">Correo Electrónico:</label>
